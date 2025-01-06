@@ -1,0 +1,10 @@
+/* src/components/Navbar/Navbar.css */
+.Nav-bar {
+    background-color: rgb(12, 11, 11); /* Original black background */
+    height: 25vh;
+}
+
+.DynamicFilter {
+    margin-right: 70px;
+}
+

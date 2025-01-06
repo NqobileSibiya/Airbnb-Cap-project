@@ -1,0 +1,51 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+/* Additional styling for the card hover effect */
+.card:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Home CSS */
+.home_Section_img {
+  display: flex;
+  flex-direction: row;         /* Allow wrapping to next line if there's not enough space */
+  margin-top: 40px;        /* Space between the banner and cards */
+  padding: 20px;
+  width: 97%;                /* Ensure it takes full width */
+}
+  
+  .card > img {
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+  }
+  
+  .card_info {
+    padding: 15px;
+    background-color: #c40e2c;
+  }
+  
+  .card_info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .card_info h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .card_info h3 {
+    font-size: 16px;
+    color: #fdfbfb;
+  }
+  

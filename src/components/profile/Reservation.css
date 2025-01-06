@@ -1,0 +1,32 @@
+.reservation-table-container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reservation-table th,
+.reservation-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.reservation-table th {
+  background-color: #f2f2f2;
+}
+
+.reservation-table button {
+  padding: 5px 10px;
+  background-color: #f01f92;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reservation-table button:hover {
+  background-color: #a5a2a4;
+}

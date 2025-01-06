@@ -1,0 +1,46 @@
+/* ListingsDisplay.css */
+.ListingsDisplay {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .ListingsDisplay img {
+    width: 200%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ListingsDisplay:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ListingsDisplay .info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ListingsDisplay h3 {
+    margin: 0;
+    font-size: 30px;
+    color: #9c1010;
+  }
+  
+  .ListingsDisplay p {
+    margin: 4px 0;
+    color: #555;
+  }
+  
+  .ListingsDisplay .price {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  

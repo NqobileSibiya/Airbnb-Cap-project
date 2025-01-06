@@ -1,0 +1,70 @@
+.new-footer {
+    display: flex;
+    justify-content: space-between; /* Space between left, center, and right sections */
+    align-items: center; /* Vertically center items */
+    background-color: #f8f8f8; /* Light background color */
+    padding: 20px; /* Add some padding */
+    border-top: 1px solid #eaeaea; /* Top border */
+    margin-top: 100px;
+    font-size:20px;
+}
+
+.footer__left {
+    color: #777; /* Copyright text color */
+    font-size: 20px; /* Smaller font size */
+}
+
+.footer__center {
+    display: flex;
+    flex-wrap: wrap; /* Allow sections to wrap if there's not enough space */
+    margin-right:120px;
+}
+
+.footer__section {
+    margin: 0 20px; /* Space between sections */
+}
+
+.footer__section h4 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.footer__section a {
+    display: block; /* Links take up the full width */
+    margin: 5px 0; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    color: #555; /* Link color */
+}
+
+.footer__section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer__right {
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+
+.language-dropdown {
+    margin-right: 20px; /* Space between dropdown and social icons */
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+
+.language-dropdown select {
+    margin-left: 5px; /* Space between icon and select */
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px; /* Space between social media icons */
+    color: #555; /* Icon color */
+}
+
+.social-media-icons svg {
+    cursor: pointer; /* Change cursor on hover */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-media-icons svg:hover {
+    color: #0073e6; /* Change color on hover */
+}

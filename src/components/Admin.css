@@ -1,0 +1,112 @@
+body{
+  background-color: white;
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 20px;
+  margin-right: 2500px;
+  gap:100px;
+}
+
+.primary-button {
+  color: rgb(0, 0, 0);
+  border: 0.2rem solid rgb(94, 92, 92);
+  padding: 10px 20px;
+  margin: 0 10px; /* Add space between the buttons */
+  width: 250px;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.primary-button:hover {
+  background-color: #ff7e82; /* A slightly lighter shade for hover effect */
+}
+
+h1 {
+  color: black;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+/* Admin container styling */
+.box {
+  border: 1px solid #ccc; /* Optional: to separate listings visually */
+  border-radius: 8px; /* Optional: for rounded corners */
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* Admin listings-container */
+.listings-container {
+  display: flex; /* Use flexbox to arrange items vertically */
+  flex-direction: column; /* Make each listing stack vertically */
+}
+
+/* Admin listing styling */
+.listing {
+  display: flex; /* Flex to arrange image and details side by side */
+  margin: 10px;
+  overflow: hidden; /* Ensures children fit within the container */
+  padding: 10px; /* Add padding to the listing */
+}
+
+.listing-image {
+  height: 100px;
+}
+
+.listing-image img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Admin listing details styling */
+.listing-details {
+  padding: 0 40px; /* Add some spacing */
+}
+
+/* Paragraph styling in admin component */
+p {
+  color: black;
+  font-size: 20px;
+}
+
+/* Button container in admin component */
+.listings-button {
+  display: flex; /* Use flexbox for button layout */
+  flex-direction: column; /* Stack buttons vertically */
+  justify-content: center; /* Center buttons vertically */
+  margin-top: 10px; /* Add space between the details and buttons */
+  margin-bottom: 30px;
+  width: 400px;
+}
+
+/* Styling for the Update and Delete buttons */
+.dark-button {
+  background-color: blue;
+  width: 350px;
+}
+
+.light-button {
+  background-color: rgb(180, 6, 35);
+  width: 350px;
+}
+
+/* Admin logout button styling */
+.logout-btn {
+  background-color: rgb(134, 132, 132);
+  color: rgb(3, 3, 3);
+  padding: 10px 20px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-btn:hover {
+  background-color: rgb(199, 18, 78);
+}

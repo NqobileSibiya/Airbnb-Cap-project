@@ -1,0 +1,71 @@
+.reservation-container {
+  padding: 20px;
+  max-width: 400px;
+  margin-right:30px;
+  margin-top:100px;
+  background-color: #f9f9f9; /* Light background for better visibility */
+  border: 1px solid #ccc; /* General border for the entire container */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.price-ratings-box {
+  border: 1px solid #000; /* Border for the price and ratings box */
+  padding: 10px;
+  margin-bottom: 20px; /* Space between boxes */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.price {
+  display: block; /* Each span on a new line */
+  font-weight: bold; /* Bold for emphasis */
+  margin-bottom:5px;
+}
+
+.ratings {
+  display: block; /* Each span on a new line */
+  color: #555; /* Slightly lighter color for ratings */
+}
+
+.calendar-box {
+  border: 1px solid #ccc; /* Border for the calendar box */
+  padding: 10px;
+  margin-bottom: 20px; /* Space before the button */
+  border-radius: 5px; /* Rounded corners */
+}
+
+input[type="date"] {
+  width: 48%; /* Responsive width for date inputs */
+  margin-right: 4%; /* Space between date inputs */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="date"]:last-child {
+  margin-right: 0; /* No margin on the last input */
+}
+
+.reservation-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-bottom:10px;
+  margin-left:90px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reservation-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.text-rows {
+  margin-bottom: 10px; /* Space before total */
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px; /* Larger font size for total */
+}

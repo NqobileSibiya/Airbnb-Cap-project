@@ -1,0 +1,38 @@
+.Admin-Nav-bar {
+    justify-content: space-between; /* Space between logo and logout */
+    background-color: white; /* Set background color to white */
+    height: 300px; /* Adjust height as needed */
+    padding:  30px; /* Padding on left and right */
+   
+}
+  
+.Top-row {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between logo and icon container */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure it takes full width */
+}
+  
+.white_logo-container {
+    display: flex; /* Flex to center the logo */
+    align-items: center; /* Center logo vertically */
+   
+}
+  
+.white__logo {
+    height: 150px; /* Adjust logo height */
+    width: 350px;
+}
+  
+  .Icon-container {
+    display: flex; /* Flex container for icons */
+    align-items: center; /* Center icons vertically */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 50px;
+  }
+  
+  /* Optional: Add space between the two divs if needed */
+  .Top-row > *:first-child {
+    margin-right: auto; /* Pushes the icon container to the far right */
+  }
+  

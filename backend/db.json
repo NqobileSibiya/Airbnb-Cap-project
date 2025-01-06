@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "nqobile sibiya",
+      "email": "nqobilesibiya@gmail.com",
+      "phone": "067 123 7979"
+    },
+    {
+      "id": "2",
+      "name": "amandla sibiya",
+      "email": "amandlasibiya@gmail.com",
+      "phone": "076 123 7979"
+    },
+    {
+      "id": "3",
+      "email": "carolsibiya@gmail.com",
+      "password": "12355464"
+    },
+    {
+      "id": "4",
+      "email": "nokuthulasibiya@gmail.com",
+      "password": "12355465"
+    },
+    {
+      "id": "233a",
+      "email": "olivier@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "eb4e",
+      "email": "snethemba@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "155b",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08July1994"
+    },
+    {
+      "id": "28a2",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08july1994#"
+    },
+    {
+      "id": "3a42",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08july1994#"
+    },
+    {
+      "id": "57cd",
+      "name": "nqobile",
+      "email": "nqobileamandlasibiya@gmail.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "b722",
+      "name": "nqobile",
+      "email": "nqobileamandlasibiya@gmail.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "a439",
+      "name": "nqobile",
+      "email": "nqobileamandlasibiya@gmail.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "4c06",
+      "name": "nqobile",
+      "email": "nqobileamandlasibiya@gmail.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "fb88",
+      "name": "nqobile",
+      "email": "nqobileamandlasibiya@gmail.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "642e",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "226b",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "c705",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "1ca8",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "75a4",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "08july1994"
+    },
+    {
+      "id": "ec2b",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "08july1994#"
+    },
+    {
+      "id": "1cb2",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "08july1994#"
+    },
+    {
+      "id": "f3a9",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "b020",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "8891",
+      "name": "sne",
+      "email": "snethemba@email.com",
+      "password": "bestPassword"
+    },
+    {
+      "id": "707e",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08July1994"
+    },
+    {
+      "id": "9353",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08July1994"
+    },
+    {
+      "id": "d143",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08July1994"
+    },
+    {
+      "id": "7fb1",
+      "name": "nqobile",
+      "email": "Designsbynqobile@gmail.com",
+      "password": "08July1994"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2015-07-20",
+      "endDate": "2024-07-21",
+      "userId": "1",
+      "id": "46f5"
+    }
+  ],
+  "Listings": [
+    {
+      "id": "1",
+      "images": [
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/ee71281a-74af-4200-882a-53c2c8d96a42.jpeg?im_w=720&im_q=highq",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png"
+      ],
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": 2000,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": "2"
+    },
+    {
+      "id": "2",
+      "images": [
+        "https://a0.muscache.com/im/pictures/monet/Luxury-684775187359347079/original/22a46210-3257-4081-af3a-cddbefe28396?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png"
+      ],
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 2056,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": 1500,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": "4"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.location-link {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Keeps the text color consistent with the surrounding text */
+}
+
+h1{
+    margin-left:1000px;
+}
+  

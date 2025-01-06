@@ -1,0 +1,370 @@
+body{
+  font-size:20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 200px;
+  margin-top:100px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-group-title label {
+  width: 80%; 
+  margin-bottom: 5px; /* Space between label and input */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+.form-group-title {
+  width: 15%;
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.form-group-title input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+.form-group-title input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.form-group-Price label {
+  width: 80%; 
+  margin-bottom: 5px; /* Space between label and input */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.form-group-Price {
+  width: 30%;
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+
+.form-group-Price input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-group-Price input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.form-group-Type label {
+  width: 80%; 
+  margin-bottom: 5px; /* Space between label and input */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.form-group-Type {
+  width: 30%;
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+
+.form-group-Type input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-group-Type input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.form-group-Location label {
+  width: 80%; 
+  margin-bottom: 5px; /* Space between label and input */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.form-group-Location {
+  width: 60%;
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+
+.form-group-Location input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-group-Location input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.age-group label {
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.age-group{
+  margin-left: 30%;
+}
+
+.age-group input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.age-group input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.form-group-Bedroom label {
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+.form-group-Bedroom {
+  width: 15%;
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.form-group-Bedroom input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+.form-group-Bedroom input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.form-group-Bathroom label {
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+.form-group-Bathroom{
+  width: 15%;
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make the label bold for emphasis */
+  color: #333; /* Dark gray color for the label */
+}
+
+.form-group-Bathroom input {
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for the input */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+.form-group-Bathroom input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
+.form-group-Description {
+  display: flex;
+  flex-direction: column; /* Stack label and textarea vertically */
+  margin-bottom: 20px; /* Space below the group */
+  margin-left:30px;
+}
+
+.description-textarea {
+  width: 100%; /* Full width of the container */
+  height: 100px; /* Height for the textarea, adjust as needed */
+  padding: 10px; /* Padding for better spacing */
+  font-size: 16px; /* Font size */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Rounded corners */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.description-textarea::placeholder {
+  color: #888; /* Placeholder text color */
+  font-style: italic; /* Italicize the placeholder text */
+}
+
+.form-row-two {
+  display: flex; /* Use flexbox to arrange the form groups */
+  justify-content: space-between; /* Space between inputs */
+  margin-bottom: 10px; /* Space below the row */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  margin-bottom: 20px; /* Space below the form group */
+  margin-left: 580px;
+}
+
+.upload-button {
+  background-color: #6bb60a; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 15px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  margin-bottom: 10px; /* Space below the button */
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.image-preview-box {
+  border: 1px solid #ccc; /* Border around the image preview box */
+  padding: 10px; /* Padding inside the box */
+  border-radius: 4px; /* Rounded corners for the box */
+  max-width: 500px; /* Set a max width for the box */
+  max-height: 300px; /* Set a max height for the box */
+  overflow: hidden; /* Hide overflow */
+  display: flex; /* Center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-preview-container {
+  display: flex; /* Center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  
+}
+
+.image-preview {
+  max-width: 100%; /* Responsive image */
+  max-height: 100%; /* Prevent overflow */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.upload-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* Text color */
+  margin-right:10px;
+  width:300px;
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.upload-button:hover {
+  background-color: #0056b3; /* Darken on hover */
+}
+
+.image-preview-container {
+  margin-top: 10px; /* Space above the image preview */
+  border: 1px solid #ccc; /* Border around the preview */
+  padding: 10px; /* Padding for the preview container */
+  border-radius: 4px; /* Rounded corners */
+  max-width: 500px; /* Set a max width for the preview */
+  max-height: 300%; 
+  overflow: hidden; /* Hide overflow */
+  display: flex; /* Center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-preview {
+  max-width: 100%; /* Responsive image */
+  max-height: 100%; /* Prevent overflow */
+  border:0.2rem solid grey;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+
+/* Common styles for all buttons */
+.button-container {
+  margin-top:1px;
+  margin-left: 730px; /* Space between buttons */
+  padding: 10px 15px; /* Padding for the buttons */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Round button corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Specific styles for the Update button */
+.update-button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+}
+
+.update-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Specific styles for the Cancel button */
+.delete-button {
+  background-color: #dc3545; /* Button background color for Cancel (Bootstrap danger color) */
+  color: white; /* Button text color */
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker color on hover for Cancel */
+}
+
+.amenities-input-container {
+  display: flex; /* Use flexbox to align input and button */
+  align-items: center; /* Center items vertically */
+  width:40%;
+  height: 35px;
+}
+
+.amenities-input-container input {
+  flex: 1; /* Allow the input to take remaining space */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 16px; /* Adjust font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Round the corners */
+}
+
+.amenities-input-container input::placeholder {
+  color: #888; /* Placeholder text color */
+  font-style: italic; /* Italicize the placeholder text */
+  opacity: 0.7; /* Slightly transparent for better visibility */
+}
+
+
+
